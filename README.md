@@ -70,7 +70,7 @@ where `μ` is the location parameter and `σ > 0` is the scale parameter. Accord
 ## Usage
 
 ```javascript
-import entropy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal-entropy@esm/index.mjs';
+import entropy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal-entropy@v0.3.0-esm/index.mjs';
 ```
 
 #### entropy( mu, sigma )
@@ -136,7 +136,7 @@ y = entropy( 0.0, -1.0 );
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import entropy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal-entropy@esm/index.mjs';
+import entropy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-lognormal-entropy@v0.3.0-esm/index.mjs';
 
 var opts = {
     'dtype': 'float64'
